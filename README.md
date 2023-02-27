@@ -1,23 +1,34 @@
 # Connecting-the-Cloud-VNet-to-VNet-Peering-in-Microsoft-Azure
 
+>>>> # First Create Virtual network For Head office <<<< 
+
 ![Screenshot 2023-02-26 102338](https://user-images.githubusercontent.com/113555417/221437979-dd9263d8-5b9c-4cdd-94fc-4f2f1b76305d.jpg)
+
+# Fill Details as per Project requirnment 
 ![Screenshot 2023-02-26 102510](https://user-images.githubusercontent.com/113555417/221437981-ae02b986-9db3-4779-bcf0-f3ab860ade25.jpg)
 ![Screenshot 2023-02-26 102624](https://user-images.githubusercontent.com/113555417/221437982-ca9490db-e40d-4871-a298-15361951c8ad.jpg)
+
+# Set address range and create Subnet
 ![Screenshot 2023-02-26 102645](https://user-images.githubusercontent.com/113555417/221437985-92e50ed4-656c-4d3b-bfb0-20485cf76b06.jpg)
 ![Screenshot 2023-02-26 102703](https://user-images.githubusercontent.com/113555417/221437986-6d383412-02dd-4f83-b9ca-2a76ea5ed25b.jpg)
 ![Screenshot 2023-02-26 102742](https://user-images.githubusercontent.com/113555417/221437989-594419ca-edd8-428a-aa8e-64424da8948e.jpg)
 ![Screenshot 2023-02-26 103047](https://user-images.githubusercontent.com/113555417/221438052-8d498a5f-4cd1-481a-bf1a-5d0e8d183c95.jpg)
+
+>>>> # Headoffice <<<<
 ![Screenshot 2023-02-26 103129](https://user-images.githubusercontent.com/113555417/221438058-353c3f7d-a928-486c-8f0e-f218cc1ba8d4.jpg)
 
-
+>>>> # Create  Virtual Network for BranchOffice <<<<
 ![Screenshot 2023-02-26 102842](https://user-images.githubusercontent.com/113555417/221438086-e05d219f-e29f-4a1f-a269-9e5a600f0d08.jpg)
 ![Screenshot 2023-02-26 102956](https://user-images.githubusercontent.com/113555417/221438090-7b240e9c-a3b2-4290-aacd-59fcda3ac6f4.jpg)
+
+# Set address range and create Subnet
 ![Screenshot 2023-02-26 103008](https://user-images.githubusercontent.com/113555417/221438091-f60754f1-7187-4e85-bdab-cd2cd36d1070.jpg)
 ![Screenshot 2023-02-26 103028](https://user-images.githubusercontent.com/113555417/221438092-76aeaa34-3a33-4eaf-a0e4-3ae0de5bcf2f.jpg)
 ![Screenshot 2023-02-26 103102](https://user-images.githubusercontent.com/113555417/221438113-3fdf96ed-c9a9-4b46-8306-5be6c8f364fd.jpg)
+>>> # BranchOffice <<<<
 ![Screenshot 2023-02-26 103139](https://user-images.githubusercontent.com/113555417/221438116-5beec8f7-c73a-45cc-a563-1d4fca2cd107.jpg)
 
-
+>>>> # Create Virtual machine for head Office And attach wit headoffice subnet <<<<
 ![Screenshot 2023-02-26 103223](https://user-images.githubusercontent.com/113555417/221438198-9390b68d-51cc-4f04-8bd2-ddcf5579dd4d.jpg)
 ![Screenshot 2023-02-26 103325](https://user-images.githubusercontent.com/113555417/221438199-d7d62417-85c4-4443-8b93-c5b0aad5d78a.jpg)
 ![Screenshot 2023-02-26 103342](https://user-images.githubusercontent.com/113555417/221438202-0fc16d20-f41d-4765-a1d0-bacf35072985.jpg)
@@ -29,7 +40,7 @@
 ![Screenshot 2023-02-26 105659](https://user-images.githubusercontent.com/113555417/221438218-98db4e69-2695-4148-b303-aeaa6547ee30.jpg)
 ![Screenshot 2023-02-26 105713](https://user-images.githubusercontent.com/113555417/221438219-b7da3bc0-6971-4990-9a39-05833fd16ef3.jpg)
 
-
+>>>> # Create Virtual machine for Branch Office And attach wit branchoffice subnet <<<<
 
 ![Screenshot 2023-02-26 105740](https://user-images.githubusercontent.com/113555417/221438266-3fe907d3-ea9e-4e14-9407-dad7001eaa39.jpg)
 ![Screenshot 2023-02-26 105812](https://user-images.githubusercontent.com/113555417/221438270-66dd59ef-ccaf-452e-a257-b5d5fd98dc62.jpg)
@@ -38,16 +49,18 @@
 ![Screenshot 2023-02-26 110155](https://user-images.githubusercontent.com/113555417/221438276-69f80fa3-8c17-459c-9d66-54a591722397.jpg)
 ![Screenshot 2023-02-26 110211](https://user-images.githubusercontent.com/113555417/221438277-8e74ee0e-3daf-4f14-bc8e-12db59114305.jpg)
 
-
+>>>> # Access Headoffice virual machine through public ip using RDP <<<< 
 
 ![Screenshot 2023-02-26 110345](https://user-images.githubusercontent.com/113555417/221438313-35563bb2-937d-4a94-9f56-42f963aebe4a.jpg)
 ![Screenshot 2023-02-26 110357](https://user-images.githubusercontent.com/113555417/221438315-399aa469-2b09-4b0e-a20b-60dd9967048c.jpg)
+
+>>>> # Check Connection from aur Headoffice Virtual network to Branch office Virtual network <<<<
 ![Screenshot 2023-02-26 110602](https://user-images.githubusercontent.com/113555417/221438316-760d981b-1e8f-4581-b2c4-84b87638bd52.jpg)
 ![Screenshot 2023-02-26 110620](https://user-images.githubusercontent.com/113555417/221438318-67ee55ca-b036-4fdd-8791-7f863db2026e.jpg)
 ![Screenshot 2023-02-26 110632](https://user-images.githubusercontent.com/113555417/221438319-bda2a82a-5151-4213-8b62-4840f7acd912.jpg)
 
 
-
+>>>> # Vnet to Vnet peering <<<<
 ![Screenshot 2023-02-26 110710](https://user-images.githubusercontent.com/113555417/221438347-4809acf6-4f04-4e06-89ce-cfefab92fe9d.jpg)
 ![Screenshot 2023-02-26 110724](https://user-images.githubusercontent.com/113555417/221438350-bbb6abfb-def3-4d0a-8b08-d4e889434cf9.jpg)
 ![Screenshot 2023-02-26 110825](https://user-images.githubusercontent.com/113555417/221438352-c0e3aed7-3aa9-429e-83c4-dcf3ff1edb8b.jpg)
